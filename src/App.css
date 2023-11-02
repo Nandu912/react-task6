@@ -1,0 +1,31 @@
+css
+.App {
+ text-align: center;
+ background-color: #f7f7f7;
+ padding: 20px;
+ font-family: Arial, sans-serif;
+}
+
+.portfolio {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.portfolio-item {
+ background-color: #ffffff;
+ border: 1px solid #cccccc;
+ border-radius: 5px;
+ padding: 20px;
+ margin: 10px;
+ width: 300px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+ margin: 20px 0;
+}
+
+.contact {
+ margin: 20px 0;
+}
